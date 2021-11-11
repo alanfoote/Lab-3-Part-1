@@ -1,0 +1,79 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+</style>
+header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+head {
+      font-size: 48px;
+      font-style: oblique;
+      font: Lato:wght@900
+      font-family: 'Lato:wght@900', sans-serif;
+      color: #2ca25f
+     }
+     head {
+           font-size: 40px;
+           font-style: oblique;
+           font: Lato:wght@900
+           font-family: 'Lato:wght@900', sans-serif;
+           color: #2ca25f
+          }
+body {
+     font-size: 100%;
+     font-family: 'Lato', sans-serif;
+     font-weight: bold;
+     color: #003c30;
+     background-color: #c7eae5;
+     text-align: center;
+    }
+
+h1  {
+     font-size: 52px; /*36px*/
+     font-family: 'Lato:wght@900', sans-serif;
+     color: #003c30;
+    }
+
+h2 {
+     font-size: 40px;
+     font-family: 'Lato:wght@900', sans-serif;
+     color: #8c510a;
+   }
+
+p {
+     font-size: 24px;
+     font-family: 'Lato', sans-serif;
+     color: #01665e
+     line-height: 100%;
+   }
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #f5f5f5;
+  background-color: #1a9850;
+  border:none;
+  border-radius: 15px;
+  }
+
+button:hover {background-color: #006837}
+
+button:active {
+  background-color: #80cdc1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+ #map {
+
+        position: absolute;
+        border: 10px solid #f5f5f5;
+        width: 80%;
+        height: 80%;
+       }
